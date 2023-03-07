@@ -1,0 +1,17 @@
+{
+  "name": "alpha_tools",
+  "version": "1.0.0",
+  "description": "Many tools",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "csimonr28@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.2"
+  }
+}

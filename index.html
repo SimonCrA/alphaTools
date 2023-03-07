@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline';" />
+    <title>AlphaTools</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <div class="app-container">
+      <div class="counter-results">
+        <div class="count-container">
+          <p class="count-title">Palabras</p>
+          <p id="word-counter" class="count">0</p>
+        </div>
+
+        <div class="count-container">
+          <p class="count-title">Caracteres</p>
+          <p id="character-counter" class="count">0</p>
+        </div>
+
+        <div class="count-container">
+          <p class="count-title">Espacios</p>
+          <p id="space-counter" class="count">0</p>
+        </div>
+
+        <div class="count-container">
+          <p class="count-title">Parrafos</p>
+          <p id="paragraph-counter" class="count">0</p>
+        </div>
+      </div>
+      <textarea
+        id="text-area"
+        class="scroll_enabled"
+        rows="10"
+        cols="50"
+        placeholder="Ingrese el texto que desea examinar..."
+        spellcheck="false"
+        autocomplete="false"
+      ></textarea>
+    </div>
+
+    <footer>
+      <div>
+        <p>&copy; 2023 csimonr28@gmail.com</p>
+        <a href="https://www.github.com/simoncra" target="_blank" rel="noopener noreferrer">Github </a>
+        <a href="https://www.simonctech.com" target="_blank" rel="noopener noreferrer"> Web</a>
+      </div>
+    </footer>
+  </body>
+</html>
